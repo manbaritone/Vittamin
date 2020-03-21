@@ -10,6 +10,13 @@ For more information about me, please see [https://manbaritone.com/](https://man
 
 ### Files:
 1. [Presentation file](https://drive.google.com/file/d/1vGDBHkPTSWjwMuJVIYoYjkdlKRkBlJGM/view?usp=sharing)
+2. Try to Visualize Tutorial
+3. Try to Dock Tutorial
+4. Similarity search in ChEMBL database\
+  4.1 [similarity_search_for_compounds_ChEMBL.ipynb](https://github.com/manbaritone/Vittamin/blob/master/similarity_search_for_compounds_ChEMBL.ipynb)\
+  4.2 [cov_compounds.csv](https://github.com/manbaritone/Vittamin/blob/master/cov_compounds.csv)\
+  4.3 [cov_compounds.smi](https://github.com/manbaritone/Vittamin/blob/master/cov_compounds.smi)\
+  4.4 [cov_compounds.mol2](https://github.com/manbaritone/Vittamin/blob/master/cov_compounds.mol2)
 
 ### Demo:
 #### DEMO I: Try to Visualize with VMD
