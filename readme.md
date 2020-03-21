@@ -4,7 +4,7 @@
 
 By: Bundit Boonyarit, Ph.D. student Information Science and Technology, Vidyasirimedhi Institute of Science and Technology (VISTEC)
 
-Date: March 22, 2020 - 7:00 PM
+Date: March 22, 2020, 7:00 - 9.30 PM
 
 For more information about me, please see [https://manbaritone.com/](https://manbaritone.com/)
 
