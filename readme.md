@@ -6,6 +6,8 @@ By: Bundit Boonyarit, Ph.D. student Information Science and Technology, Vidyasir
 
 Date: March 22, 2020 - 7:00 PM
 
+For more information about me, please see [https://manbaritone.com/](https://manbaritone.com/)
+
 ### Files:
 1. [Presentation file](https://drive.google.com/file/d/1vGDBHkPTSWjwMuJVIYoYjkdlKRkBlJGM/view?usp=sharing)
 
