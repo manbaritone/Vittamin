@@ -22,3 +22,8 @@ Dock 3C‐like serine protease (3CLpro) of SARS-CoV-2 with co-crystal ligand by 
 Material: PDB file [(6Y2F)](http://www.rcsb.org/structure/6Y2F)\
 Software: [DOCK 6](http://dock.compbio.ucsf.edu/DOCK_6/index.htm), [Chimera](https://www.cgl.ucsf.edu/chimera/download.html)\
 Platform: Google Colab
+
+### Credits:
+1. Jiramet Kinchagawat, Dept. Bio and Brain Engineering, KAIST
+2. Natthakan Saengnil, KVIS
+3. Puri Virakarin, KVIS
