@@ -8,7 +8,8 @@ Date: March 22, 2020, 7:00 - 9.30 PM
 
 For more information about me, please see [https://manbaritone.com/](https://manbaritone.com/)
 
-### Lecture: [https://www.youtube.com/watch?v=mDgucl2DvwU](https://www.youtube.com/watch?v=mDgucl2DvwU)
+### Lecture: 
+[https://www.youtube.com/watch?v=mDgucl2DvwU](https://www.youtube.com/watch?v=mDgucl2DvwU)
 
 ### Files:
 1. [Presentation file](https://drive.google.com/file/d/1vGDBHkPTSWjwMuJVIYoYjkdlKRkBlJGM/view?usp=sharing)
