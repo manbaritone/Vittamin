@@ -1,0 +1,10 @@
+ density type = X
+ reading  6LU7_rec_surface.dms                                                               type   R
+ # of atoms =   2451   # of surf pts =  24770
+ finding spheres for   6LU7_rec_surface.dms                                                            
+ dotlim =     0.000
+ radmax =    4.000
+ Minimum radius of acceptable spheres?
+   1.4000000
+ output to  6LU7_receptor_woH.sph                                                           
+ clustering is complete     65  clusters

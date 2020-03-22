@@ -1,0 +1,158 @@
+
+
+
+--------------------------------------
+DOCK v6.9
+
+Released November 2018
+Copyright UCSF
+--------------------------------------
+
+
+Conformational Sampling Parameters
+------------------------------------------------------------------------------------------
+conformer_search_type                                        rigid
+
+Internal Energy Parameters
+------------------------------------------------------------------------------------------
+use_internal_energy                                          yes
+internal_energy_rep_exp                                      12
+internal_energy_cutoff                                       100.0
+Note: Internal energy only includes repulsive VDW for growth and/or minimization.
+
+Molecule Library Input Parameters
+------------------------------------------------------------------------------------------
+ligand_atom_file                                             ../001.structure/6lu7_ligand_wH.mol2
+limit_max_ligands                                            no
+skip_molecule                                                no
+read_mol_solvation                                           no
+calculate_rmsd                                               yes
+use_rmsd_reference_mol                                       yes
+rmsd_reference_filename                                      ../001.structure/6lu7_ligand_wH.mol2
+
+Database Filter Parameters
+------------------------------------------------------------------------------------------
+use_database_filter                                          no
+
+Orient Ligand Parameters
+------------------------------------------------------------------------------------------
+orient_ligand                                                no
+
+Bump Filter Parameters
+------------------------------------------------------------------------------------------
+bump_filter                                                  no
+
+Master Score Parameters
+------------------------------------------------------------------------------------------
+score_molecules                                              yes
+
+Contact Score Parameters
+------------------------------------------------------------------------------------------
+contact_score_primary                                        no
+contact_score_secondary                                      no
+
+Grid Score Parameters
+------------------------------------------------------------------------------------------
+grid_score_primary                                           yes
+grid_score_secondary                                         no
+grid_score_rep_rad_scale                                     1
+grid_score_vdw_scale                                         1
+grid_score_es_scale                                          1
+grid_score_grid_prefix                                       ../003.gridbox/grid
+
+MultiGrid Score Parameters
+------------------------------------------------------------------------------------------
+multigrid_score_secondary                                    no
+
+Dock3.5 Score Parameters
+------------------------------------------------------------------------------------------
+dock3.5_score_secondary                                      no
+
+Continuous Energy Score Parameters
+------------------------------------------------------------------------------------------
+continuous_score_secondary                                   no
+
+Footprint Similarity Score Parameters
+------------------------------------------------------------------------------------------
+footprint_similarity_score_secondary                         no
+
+Pharmacophore Similarity Score Parameters
+------------------------------------------------------------------------------------------
+pharmacophore_score_secondary                                no
+
+Descriptor Score Parameters
+------------------------------------------------------------------------------------------
+descriptor_score_secondary                                   no
+
+Zou GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+gbsa_zou_score_secondary                                     no
+
+Hawkins GB/SA Score Parameters
+------------------------------------------------------------------------------------------
+gbsa_hawkins_score_secondary                                 no
+
+SASA Score Parameters
+------------------------------------------------------------------------------------------
+SASA_score_secondary                                         no
+
+Amber Score Parameters
+------------------------------------------------------------------------------------------
+amber_score_secondary                                        no
+
+Note: No secondary scoring function selected.
+
+
+Simplex Minimization Parameters
+------------------------------------------------------------------------------------------
+minimize_ligand                                              yes
+simplex_max_iterations                                       1000
+simplex_tors_premin_iterations                               0
+simplex_max_cycles                                           1
+simplex_score_converge                                       0.1
+simplex_cycle_converge                                       1.0
+simplex_trans_step                                           1.0
+simplex_rot_step                                             0.1
+simplex_tors_step                                            10.0
+simplex_random_seed                                          0
+simplex_restraint_min                                        yes
+simplex_coefficient_restraint                                10.0
+
+Atom Typing Parameters
+------------------------------------------------------------------------------------------
+atom_model                                                   all
+vdw_defn_file                                                /apps/dock6/parameters/vdw_AMBER_parm99.defn
+flex_defn_file                                               /apps/dock6/parameters/flex.defn
+flex_drive_file                                              /apps/dock6/parameters/flex_drive.tbl
+
+Molecule Library Output Parameters
+------------------------------------------------------------------------------------------
+ligand_outfile_prefix                                        6LU7.lig.min
+write_orientations                                           no
+num_scored_conformers                                        1
+rank_ligands                                                 no
+------------------------------------------------------------------------------------------
+Initializing Library File Routines...
+Initializing Grid Score Routines...
+ Reading the energy grid from ../003.gridbox/grid.nrg
+ Done reading the energy grid.
+ Reading the grid box quantifiers from ../003.gridbox/grid.bmp
+ Done reading the grid box quantifiers.
+
+-----------------------------------
+Molecule: 6lu7.pdb
+
+ Elapsed time for docking:	0 seconds
+
+ Anchors:		1
+ Orientations:		1
+ Conformations:		1
+
+                          Grid_Score:          -24.491859
+                     Grid_vdw_energy:          -26.471354
+                      Grid_es_energy:            1.979495
+           Internal_energy_repulsive:           39.979538
+
+
+1 Molecules Processed
+Total elapsed time:	0 seconds

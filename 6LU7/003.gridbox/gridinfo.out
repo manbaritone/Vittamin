@@ -1,0 +1,126 @@
+
+
+        UUUUUUU    CCCCCCCC    SSSSSSS/  FFFFFFFFF  
+      UU/    UU/  CC/    CC/     SS/     FF/    FF/ 
+     UU/         CCCCCCCC/      SS/     FF/    FF/  
+    UU/  UUUU/  CC/ CC\        SS/     FF/    FF/   
+   UU/    UU/  CC/   CC\      SS/     FF/    FF/    
+   UUUUUUU/   CC/     CC\  SSSSSS/  FFFFFFFFF/      
+
+
+University of California at San Francisco, DOCK 4.0.1
+
+__________________Job_Information_________________
+launch_time                    Sun Mar 22 15:00:43 2020
+host_name                      unknown
+memory_limit                   -1
+working_directory              /share/galaxy/bundit/6LU7/003.gridbox
+user_name                      bundit
+
+________________General_Parameters________________
+compute_grids                  yes
+grid_spacing                   0.4
+output_molecule                no
+
+________________Scoring_Parameters________________
+contact_score                  no
+energy_score                   yes
+energy_cutoff_distance         9999
+atom_model                     a
+attractive_exponent            6
+repulsive_exponent             9
+distance_dielectric            yes
+dielectric_factor              4
+bump_filter                    yes
+bump_overlap                   0.75
+
+____________________File_Input____________________
+receptor_file                  ../001.structure/6lu7_rec_dockprep.mol2
+box_file                       6LU7.box.pdb
+vdw_definition_file            /apps/dock6/parameters/vdw_AMBER_parm99.defn
+
+____________________File_Output___________________
+score_grid_prefix              grid
+
+
+
+Reading in coordinates of receptor.
+CHARGED RESIDUE SER                     :    1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE LYS                     :    1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE GLU                     :   -1.000
+CHARGED RESIDUE ASP                     :   -1.000
+CHARGED RESIDUE ARG                     :    1.000
+CHARGED RESIDUE GLN                     :   -1.000
+
+Total charge on 6lu7.pdb                :   -4.000
+
+Reading in grid box information.
+Box center of mass                      :  -10.265   15.071   67.562
+Box dimensions                          :   28.131   33.636   33.602
+Number of grid points per side [x y z]  :       72       86       86
+Total number of grid points             :   532512
+
+Generating scoring grids.
+Percent of protein atoms processed      :        0
+Percent of protein atoms processed      :       10
+Percent of protein atoms processed      :       20
+Percent of protein atoms processed      :       30
+Percent of protein atoms processed      :       40
+Percent of protein atoms processed      :       50
+Percent of protein atoms processed      :       60
+Percent of protein atoms processed      :       70
+Percent of protein atoms processed      :       80
+Percent of protein atoms processed      :       90
+Percent of protein atoms processed      :      100
+Writing general grid info to grid.bmp
+Writing bump grid to grid.bmp
+Writing energy grids to grid.nrg
+  Writing attractive VDW energy grid
+  Writing repulsive VDW energy grid
+  Writing electrostatic energy grid
+
+Finished calculation.

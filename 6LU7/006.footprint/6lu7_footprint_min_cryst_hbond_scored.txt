@@ -1,0 +1,22 @@
+####################################
+###  Molecule: 6lu7.pdb
+####################################
+
+##########          Footprint_Similarity_Score:        65877.023438
+##########                      FPS_vdw_energy:           63.354652
+##########                       FPS_es_energy:            1.015138
+##########                   FPS_vdw+es_energy:           64.369789
+##########                       FPS_num_hbond:                   5
+##########                         FPS_vdw_fps:        65866.925706
+##########                          FPS_es_fps:           10.099847
+##########                          FPS_hb_fps:            1.414214
+##########                   FPS_vdw_fp_numres:                 390
+##########                    FPS_es_fp_numres:                 390
+##########                    FPS_hb_fp_numres:                 390
+
+hbond detected: HIS (163) N.ar H---PJE (5) O.3 1.70571 133.984
+hbond detected: PJE (5) N.am H---HIS (164) O.2 2.49302 159.531
+hbond detected: VAL (3) N.am H---GLU (166) O.2 2.07492 154.857
+hbond detected: LEU (4) N.am H---GLN (189) O.2 1.35587 132.6
+hbond detected: ALA (2) N.am H---THR (190) O.2 1.91766 155.747
+
