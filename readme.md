@@ -9,10 +9,10 @@ Date: March 22, 2020, 7:00 - 9.30 PM
 For more information about me, please see [https://manbaritone.com/](https://manbaritone.com/)
 
 ### Files:
-1. [Presentation file](https://drive.google.com/file/d/1vGDBHkPTSWjwMuJVIYoYjkdlKRkBlJGM/view?usp=sharing)\
+1. [Presentation file](https://drive.google.com/file/d/1vGDBHkPTSWjwMuJVIYoYjkdlKRkBlJGM/view?usp=sharing)
+2. [Try to Visualize Tutorial](https://github.com/manbaritone/Vittamin/blob/master/Try%20to%20visualize.pdf)ฃ
   2.1 [6LU7 PDB file](https://github.com/manbaritone/Vittamin/blob/master/6lu7.pdb)\
   2.2 [6LU7 VMD file](https://github.com/manbaritone/Vittamin/blob/master/6lu7_vmd)
-2. [Try to Visualize Tutorial](https://github.com/manbaritone/Vittamin/blob/master/Try%20to%20visualize.pdf)
 3. [Try to Dock Tutorial](https://github.com/manbaritone/Vittamin/blob/master/Try%20to%20visualize.pdf)\
   3.1 [Tutorial folder](https://github.com/manbaritone/Vittamin/tree/master/6LU7)
 4. Similarity search in ChEMBL database\
